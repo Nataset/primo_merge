@@ -7,7 +7,6 @@ export default function merge(
     const merge_array = [];
 
     while (i < collection_1.length && j < collection_2.length) {
-        console.log(collection_1[i], collection_1[j]);
         if (collection_1[i] <= collection_2[j]) {
             merge_array.push(collection_1[i]);
             i++;
